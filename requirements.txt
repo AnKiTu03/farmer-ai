@@ -10,3 +10,5 @@ typing-extensions>=4.5.0
 numpy==1.26.3
 streamlit==1.30.0
 tensorflow==2.15.0
+scikit-learn
+firebase-admin
