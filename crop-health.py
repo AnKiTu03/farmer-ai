@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 from PIL import Image
 
 load_dotenv()
-llm_gemini = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+llm_gemini = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0)
 vision_model = ChatGoogleGenerativeAI(model="gemini-pro-vision")
 
 

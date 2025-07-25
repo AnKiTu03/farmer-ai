@@ -8,7 +8,7 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 # --- Setup ---
 load_dotenv()
 # The user's provided code uses a variable `llm_gemini`. We will initialize it here.
-llm_gemini = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7)
+llm_gemini = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.7)
 
 # Pydantic model for the financial plan output, as needed by your provided function
 class CropPlanOutput(BaseModel):

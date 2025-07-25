@@ -5,7 +5,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
-llm_gemini = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.2)
+llm_gemini = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.2)
 
 def government_schemes_analyzer(query: str) -> str:
     """Answers questions about Indian government schemes using the exact prompt from your agent flow."""
